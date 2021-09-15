@@ -13,7 +13,24 @@
 </head>
 
 <body>
-<h1>HI</h1>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info pl-5 fixed-top">
+        <a href="index.php" class="navbar-brand"><img src="images/HNS (2).png" class="rounded-circle" alt="" style="height: 50px;">NMS</a>
+        <span class="navbar-text">"stay home we will take care"</span>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myMenu">
+            <ul class="navbar-nav pl-5">
+                <li class="nav-link"><a href="" class="nav-item">Home</a></li>
+                <li class="nav-link"><a href="" class="nav-item">Our Services</a></li>
+                <li class="nav-link"><a href="" class="nav-item">Login</a></li>
+                <li class="nav-link"><a href="" class="nav-item">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
