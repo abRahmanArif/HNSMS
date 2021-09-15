@@ -1,0 +1,19 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+.brand{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 40px;
+    font-weight: bold;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+#myMenu .navItemStyle .nav-link a{
+    color:#fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#myMenu .navItemStyle .nav-link a:hover{
+    text-decoration: none;
+    color:#F8DBC9;
+    
+}
