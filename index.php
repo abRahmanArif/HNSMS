@@ -115,9 +115,9 @@
             </div>
         </div>
     </div>
-
-    <div class="container-flued mt-3">
-        <div class="jumbotron  pt-4 pb-4">
+    <!-- start aboutUs section -->
+    <div class="container-flued mt-2">
+        <div class="jumbotron  pt-3 pb-3">
             <h1 class="text-center text-info font-weight-bold">About Us</h1>
             <div class="row">
                 <div class="col text-justify">
@@ -126,6 +126,73 @@
             </div>
         </div>
     </div>
+    <!-- End aboutUs section -->
+
+    <!-- start Login section -->
+    <div class="container-fluid p-3 ">
+
+        <div class="row  justify-content-center">
+            <div class="col-md-6">
+                <h1 class="text-center">Login</h1>
+                <form action="#" method="POST" class="shadow-lg rounded bg-info">
+
+                    <div class="form-group p-4">
+                        <i class="fas fa-user"></i>
+                        <!-- <label for="uName">Name:</label>
+                        <input class="form-control" type="text" name="uName" id="uName"> -->
+                        <label for="uEmail">Email:</label>
+                        <input class="form-control" type="email" name="uEmail" id="uEmail">
+                        <small>We will never sheared your Email</small><br>
+                        <i class="fas fa-key"></i>
+                        <label for="uPassword">Password:</label>
+                        <input class="form-control" type="password" name="uPassword" id="uPassword">
+                        <a href="#"><small>Forget Password</small></a>
+                        <a href="#" class="btn btn-danger form-control mt-3 shadow-lg">Login</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End login Section -->
+    <!-- start contactUS section -->
+    <div class="container-flued">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col p-5 mr-5 bg-info rounded">
+                    <div class="row ">
+                        <div class="col">
+                            <h3>Head-Office:-</h3>
+                            <p>Gulshan, Dhaka, Bangladesh.</p>
+                            <span>Phone: 01862500366</span><br>
+                            <span>Email: abdurrahman9966@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col">
+                            <h3>Branch-Office:-</h3>
+                            <p>Agrabad, Ctg, Bangladesh.</p>
+                            <span>Phone: 01862500400</span><br>
+                            <span>Email: fahim@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col shadow-sm p-4 rounded">
+                    <form action="#" method="post">
+                        <label for="uName">Name:</label>
+                        <input class="form-control" type="text" name="uName" id="uName">
+                        <label for="uEmail">Email:</label>
+                        <input class="form-control" type="email" name="uEmail" id="uEmail">
+                        <textarea class="form-control mt-3" rows="5" id="comment" placeholder="Text"></textarea>
+                        <button type="submit" class="btn btn-info mt-3">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End contactUs section -->
+    <footer>
+
+    </footer>
     <br><br>
 
     <script src="js/jquery.min.js"></script>
