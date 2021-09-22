@@ -32,7 +32,7 @@
     </nav>
     <!-- start bannerSection -->
     <div class="container-flude">
-        <div class="jumbotron bannerSizing" style="background-image: url(images/nurse.jpg);">
+        <div class="jumbotron mb-2 bannerSizing" style="background-image: url(images/nurse.jpg);">
             <div class="mainHeader text-primary font-weight-bold text-center">
                 <h1 class="">Welcome</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus autem modi laboriosam.</p>
@@ -42,7 +42,7 @@
     </div>
     <!-- End bannerSection -->
     <!-- Start content -->
-    <div class="container rounded bg-info p-5">
+    <div class="container rounded bg-info  p-5">
         <h1 class="text-center pb-5 text-white">Our Services</h1>
         <div class="row">
             <div class="col-md-4 ">
@@ -117,7 +117,7 @@
     </div>
     <!-- start aboutUs section -->
     <div class="container-flued mt-2">
-        <div class="jumbotron  pt-3 pb-3">
+        <div class="jumbotron  mb-1 pt-3 pb-4">
             <h1 class="text-center text-info font-weight-bold">About Us</h1>
             <div class="row">
                 <div class="col text-justify">
@@ -129,7 +129,7 @@
     <!-- End aboutUs section -->
 
     <!-- start Login section -->
-    <div class="container-fluid p-3 ">
+    <div class="container-fluid mt-0">
 
         <div class="row  justify-content-center">
             <div class="col-md-6">
@@ -156,10 +156,10 @@
     <!-- End login Section -->
     <!-- start contactUS section -->
     <div class="container-flued">
-        <div class="jumbotron">
+        <div class="jumbotron mb-2">
             <div class="row">
-                <div class="col p-5 mr-5 bg-info rounded">
-                    <div class="row ">
+                <div class="col mr-5  bg-info rounded">
+                    <div class="row mt-4">
                         <div class="col">
                             <h3>Head-Office:-</h3>
                             <p>Gulshan, Dhaka, Bangladesh.</p>
@@ -176,7 +176,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col shadow-sm p-4 rounded">
+                <div class="col shadow-sm p-4  rounded">
                     <form action="#" method="post">
                         <label for="uName">Name:</label>
                         <input class="form-control" type="text" name="uName" id="uName">
@@ -191,9 +191,38 @@
     </div>
     <!-- End contactUs section -->
     <footer>
+        <div class="container-fluid bg-dark mt-0 p-3 text-light">
+            <div class="row">
+                <div class="col pl-5 customIcon">
+                    <div><a href="#"><i class="fab fa-facebook"></i></a></div>
+                    <div><a href="#"><i class="fas fa-envelope"></i></a></div>
+                    <div><a href="#"><i class="fab fa-instagram"></i></a></div>
+                    <div><a href="#"><i class="fab fa-twitter"></i></a></div>
+                </div>
+                <div class="col ">
+                    <h5>LINK:</h5>
+                    <div><small><a href="#">About Us</a></small></div>
+                    <div><small><a href="#">Contact Us</a></small></div>
+                    <div><a href="#">Emargency: 01748703196</a></div>
+                </div>
+                <div class="col">
+                    <h5>Our Mission & Vission:</h5>
+                    <p class="text-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus, commodi nam praesentium, expedita nihil architecto porro eaque sed repellendus aliquid distinctio.</p>
+                </div>
 
+
+
+            </div>
+            <hr class="bg-info">
+            <div class="row">
+                <div class="col  text-center">
+                    <small>Copyright&#169;
+                        2021</small>
+                </div>
+                <a href="#" class="mr-5"><small>Admin Login</small></a>
+            </div>
+        </div>
     </footer>
-    <br><br>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
