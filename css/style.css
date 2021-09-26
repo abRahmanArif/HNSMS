@@ -46,3 +46,30 @@ margin-top: 100px;
       color: rgb(18, 155, 148);
  
   }
+  .fa-2x{
+      color:aqua;
+  }
+  .fa-2x:hover{
+    color: #17A2B8;
+    font-size: 30px;
+}
+.linkDesign a{
+    font-size: 18px;
+    color: rgb(17, 188, 194);
+}
+.linkDesign a:hover{
+    font-size: 17px;
+   color: aqua;
+   text-decoration: none;
+}
+.adminDesign{
+    color:#17A2B8;
+}
+.adminDesign:hover{
+    color: aqua;
+    text-decoration:none;
+  
+  
+}
+
+

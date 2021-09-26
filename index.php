@@ -194,16 +194,16 @@
         <div class="container-fluid bg-dark mt-0 p-3 text-light">
             <div class="row">
                 <div class="col pl-5 customIcon">
-                    <div><a href="#"><i class="fab fa-facebook"></i></a></div>
-                    <div><a href="#"><i class="fas fa-envelope"></i></a></div>
-                    <div><a href="#"><i class="fab fa-instagram"></i></a></div>
-                    <div><a href="#"><i class="fab fa-twitter"></i></a></div>
+                    <div class="do"><a href="#"><i class="fab fa-facebook fa-2x"></i></a></div>
+                    <div><a href="#"><i class="fas fa-envelope fa-2x"></i></a></div>
+                    <div><a href="#"><i class="fab fa-instagram fa-2x"></i></a></div>
+                    <div><a href="#"><i class="fab fa-twitter fa-2x"></i></a></div>
                 </div>
                 <div class="col ">
                     <h5>LINK:</h5>
-                    <div><small><a href="#">About Us</a></small></div>
-                    <div><small><a href="#">Contact Us</a></small></div>
-                    <div><a href="#">Emargency: 01748703196</a></div>
+                    <div class="linkDesign"><small><a href="#">About Us</a></small></div>
+                    <div class="linkDesign"><small><a href="#">Contact Us</a></small></div>
+                    <div class="linkDesign"><a href="#">Emargency: 01748703196</a></div>
                 </div>
                 <div class="col">
                     <h5>Our Mission & Vission:</h5>
@@ -216,10 +216,9 @@
             <hr class="bg-info">
             <div class="row">
                 <div class="col  text-center">
-                    <small>Copyright&#169;
-                        2021</small>
+                    <small>Copyright&#169;2021</small>
                 </div>
-                <a href="#" class="mr-5"><small>Admin Login</small></a>
+                <a href="#" class="mr-5 adminDesign"><small class="">Admin Login</small></a>
             </div>
         </div>
     </footer>
