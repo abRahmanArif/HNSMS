@@ -36,7 +36,7 @@
             <div class="mainHeader text-primary font-weight-bold text-center">
                 <h1 class="">Welcome</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus autem modi laboriosam.</p>
-                <a href="#" class="btn btn-outline-primary">SignUp</a>
+                <a href="signUp.php" class="btn btn-outline-primary">SignUp</a>
             </div>
         </div>
     </div>
@@ -149,7 +149,7 @@
                         <a href="#"><small>Forget Password</small></a>
                         <a href="#" class="btn btn-danger form-control mt-3 shadow-lg">Login</a>
                 </form>
-                <div><a href="#">Create An Account</a></div>
+                <div><a href="signUp.php">Create An Account</a></div>
             </div>
         </div>
     </div>
