@@ -149,6 +149,7 @@
                         <a href="#"><small>Forget Password</small></a>
                         <a href="#" class="btn btn-danger form-control mt-3 shadow-lg">Login</a>
                 </form>
+                <div><a href="#">Create An Account</a></div>
             </div>
         </div>
     </div>
