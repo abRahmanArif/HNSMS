@@ -22,11 +22,11 @@
         </button>
         <div class="collapse navbar-collapse" id="myMenu">
             <ul class="navbar-nav pl-5  ml-5 navItemStyle">
-                <li class="nav-link"><a href="" class="nav-item">Home</a></li>
-                <li class="nav-link"><a href="" class="nav-item">Our Services</a></li>
-                <li class="nav-link"><a href="" class="nav-item">About Us</a></li>
-                <li class="nav-link"><a href="" class="nav-item">Login</a></li>
-                <li class="nav-link"><a href="" class="nav-item">Contact</a></li>
+                <li class="nav-link"><a href="index.php" class="nav-item">Home</a></li>
+                <li class="nav-link"><a href="#services" class="nav-item">Our Services</a></li>
+                <li class="nav-link"><a href="#about" class="nav-item">About Us</a></li>
+                <li class="nav-link"><a href="#login" class="nav-item">Login</a></li>
+                <li class="nav-link"><a href="#contact" class="nav-item">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -42,7 +42,7 @@
     </div>
     <!-- End bannerSection -->
     <!-- Start content -->
-    <div class="container rounded bg-info  p-5">
+    <div class="container rounded bg-info  p-5" id="services">
         <h1 class="text-center pb-5 text-white">Our Services</h1>
         <div class="row">
             <div class="col-md-4 ">
@@ -116,7 +116,7 @@
         </div>
     </div>
     <!-- start aboutUs section -->
-    <div class="container-flued mt-2">
+    <div class="container-flued mt-2" id="about">
         <div class="jumbotron  mb-1 pt-3 pb-4">
             <h1 class="text-center text-info font-weight-bold">About Us</h1>
             <div class="row">
@@ -129,7 +129,7 @@
     <!-- End aboutUs section -->
 
     <!-- start Login section -->
-    <div class="container-fluid mt-0">
+    <div class="container-fluid mt-0" id="login">
 
         <div class="row  justify-content-center">
             <div class="col-md-6">
@@ -155,7 +155,7 @@
     </div>
     <!-- End login Section -->
     <!-- start contactUS section -->
-    <div class="container-flued">
+    <div class="container-flued" id="contact">
         <div class="jumbotron mb-2">
             <div class="row">
                 <div class="col mr-5  bg-info rounded">
